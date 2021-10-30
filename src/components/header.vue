@@ -4,7 +4,7 @@
         <v-app-bar-nav-icon @click="drawer = true">
            <v-icon class="movie-icon">mdi-movie-open</v-icon>
         </v-app-bar-nav-icon>
-        <v-toolbar-title class="navbar-title">Movie App</v-toolbar-title>
+        <v-toolbar-title class="navbar-title">Movie App1</v-toolbar-title>
       </v-app-bar>
     </v-app>
 </template>
