@@ -25,7 +25,7 @@
                 <v-card-title class="card-title"><b>imdbID :</b> {{movie.imdbID}}</v-card-title>
                 <v-card-title class="card-title"><b>imdbRating :</b> {{movie.imdbRating}}</v-card-title>
                 <v-card-title class="card-title"><b>imdbVotes :</b> {{movie.imdbVotes}}</v-card-title>
-                <v-card-title class="card-title"><b>Ratings :</b></v-card-title>
+                <v-card-title class="card-title"><b>Rating List :</b></v-card-title>
                 <v-card-title v-for="rate in movie.Ratings" :key="rate.Value" class="card-title list-title">
                     <b>Source :</b> {{rate.Source}} 
                     <b>Value :</b> {{rate.Value}} 
